@@ -1,0 +1,512 @@
+body{
+    margin: 0;
+
+}
+.header
+{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+   
+}
+.middle
+{
+    width: 100%;
+    height: 460px;
+    background-color: brown;
+    display: flex;
+}
+.sub-body
+{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+.foot
+{
+    width: 100%;
+    height: 260px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redlabel
+{
+    height: 10px;
+    width: 100%;
+    background-color: #ce2f2f;
+}
+.container1
+{
+width: 100%;
+height: 70%;
+background-color: white;
+
+padding-left: 250px;
+padding-right: 25px;
+flex:10%;
+}
+.inner-div
+{
+   height: 100%;
+   width: 70%; 
+   background-color: white;
+   display: flex;
+}
+.left
+{
+height: 100%;
+width: 70%;
+background-color: yellow;
+}
+.main-img
+{
+     width: 100%;
+    max-height: 100%;
+}
+.right
+{
+    height: 100%;
+    width: 30%;
+    color: green;
+}
+.img-sub
+{
+    width: 100%;
+    height: 100%;
+}
+.button-box
+{
+    height: 40%;
+    width: 100%;
+    background-color: orangered;
+    display:flex;
+    justify-content:space-around;
+}
+.button1-container
+{
+    height: 100%;
+    flex: 1;
+    background-color: white;
+    position: relative;
+    
+}
+.button1-body
+{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+.btn1{
+    background: #ce2f2f;;
+    color: white;
+    font-size: 16px;
+    font-family: Trend W01 Sns One;
+    border: #ce2f2f;
+    border-radius: 5px;
+    letter-spacing: .2rem;
+    left: 50%;
+    
+        width: 300px;
+        height: 50px;
+
+
+}
+.btn1-p
+{
+    
+
+    font-size: 16px;
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    overflow: visible;
+    line-height: 22.4px;
+    color: #646466;
+}
+
+
+
+.button2-container
+{
+    height: 100%;
+    flex: 1;
+    background-color: white;
+    position: relative;
+    
+}
+.button2-body
+{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+.btn2{
+    background: #ce2f2f;;
+    color: white;
+    font-size: 16px;
+    font-family: Trend W01 Sns One;
+    border: #ce2f2f;
+    border-radius: 5px;
+    letter-spacing: .2rem;
+    left: 50%;
+    width: 300px;
+    height: 50px;
+
+
+}
+.btn2-p
+{
+    
+
+    font-size: 16px;
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    overflow: visible;
+    line-height: 22.4px;
+    color: #646466;
+}
+
+
+
+
+.button3-container
+{
+    height: 100%;
+    flex: 1
+    ;
+    background-color: white;
+    position: relative;
+    
+}
+.button3-body
+{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+.btn3{
+    background: #ce2f2f;;
+    color: white;
+    font-size: 16px;
+    font-family: Trend W01 Sns One;
+    border: #ce2f2f;
+    border-radius: 5px;
+    letter-spacing: .2rem;
+    left: 50%;
+    
+    width: 300px;
+     height: 50px;
+
+
+}
+.btn3-p
+{
+    
+
+    font-size: 16px;
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    overflow: visible;
+    line-height: 22.4px;
+    color: #646466;
+    
+}
+.btn1,.btn2,.btn3:hover
+{
+cursor: pointer;
+}
+
+.para-box
+{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    padding-left: 25PX;
+    padding-right: 25px;
+}
+.para-box-p
+{
+    font-size: 16px;
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    overflow: visible;
+    line-height: 22.4px;
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #646466;
+    
+    
+}
+.para-box a{
+    color:#646466 ;
+}
+.bottom-p
+{
+    text-align: center;
+    ont-size: 16px;
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    overflow: visible;
+    line-height: 22.4px;
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #646466;
+    
+}
+.foot-container
+{
+    height: 65%;
+    width: 65%;
+    background-color: #efefef;
+    border: #e2e2e2 solid 2px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 20px -5px #999;
+    font-size: 13px;
+    padding: 20px;
+    margin: 0px auto 20px auto;
+    display: flex;
+    
+    text-shadow: none;
+}
+.s1
+{
+    height: 100%;
+    
+    background-color: #f4f4f4;
+    display: inline-block;
+    vertical-align: top;
+    width: 14.5%;
+    padding-right: 2%;
+    text-align: center;
+    flex: 1;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 5px;
+    
+    
+}
+
+.s1 a{
+text-decoration: none;
+font-size: 13px;
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    overflow: visible;
+    line-height: 15.6px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+    font-family: HelveticaNeue-Light;
+    line-height: 15.6px;
+    background-color: transparent;
+    
+}
+h2{
+    font-size: 18px;
+    font-family: HelveticaNeue-Light;
+    overflow: visible;
+    line-height: 15.6px;
+    text-decoration: none;
+    list-style: none;
+    color: #ce2f2f!important;
+    font: 2.1em 'AlternateGothicW01-No2 1118643';
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    box-sizing: content-box;
+    text-align: left;
+}
+.ABTUS
+{
+    font-size: 18px;
+    font-weight: bold;
+    font-family:"AlternateGothicW01-No2 1118643";
+}
+.footer-bottom
+{
+    width: 100%;
+    height: 30px;
+    background-color: #f4f4f4;
+    align-items: center;
+    text-align: center;
+}
+.toplinks
+{
+    height: 27%;
+    width: 100%;
+    background-color:white
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border:1.5px solid;
+}
+
+.nav-bar
+{
+    height:100%;
+
+width: 80%;
+background-color: white;
+text-align: center;
+align-content: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+
+}
+.idv-s1
+{
+    height: 80%;
+    background-color: white;
+    flex: 1;
+    padding-top: 10px;
+    position: relative;
+}
+.idv-s2
+{
+    height: 80%;
+    background-color:white;
+    flex: 1.3;
+    padding-top: 10px;
+}
+.idv-s3
+{
+    height: 80%;
+    background-color: white;
+    flex: 1;
+    padding-top: 10px;
+}
+.logo
+{
+    width: 100%;
+    height: 100%;
+}
+.s3-contentbox
+{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    position: relative;
+    bottom: 0px;
+    left: 10px;
+}
+.nearestcoldstore
+{
+    font-size: 20px;
+    font-family: HelveticaNeue-Light 
+}
+.search
+{
+    padding-top: 5px;
+    position: absolute;
+    top: -9px;
+
+}
+.form-creator
+{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    position: relative;
+}
+.input
+{
+    border: black solid;
+}
+.search2
+{
+    position: absolute;
+    top: 12px;
+    left: 172px;
+    background-color: #ce2f2f;
+    border-radius: 8px;
+}
+.s1-a1
+{
+    position: absolute;
+    top: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "AlternateGothicW01-No2 1118643";
+    overflow: visible;
+    line-height: normal;
+    color: #646466;
+}
+.s1-a2
+{
+    position: absolute;
+    left: 160px;
+    top: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "AlternateGothicW01-No2 1118643";
+    overflow: visible;
+    line-height: normal;
+    color: #646466;
+
+}
+.ordernow
+{
+    background: #ce2f2f;;
+    color: white;
+    font-size: 16px;
+    font-family: Trend W01 Sns One;
+    border: #ce2f2f;
+    border-radius: 5px;
+    letter-spacing: .2rem;
+    
+    position: absolute;
+    top: 25px;
+    height: 35Px;
+    width: 170px;
+
+    
+    
+}
+.order{
+    width: 70%;
+    height: 50px;
+    background-color: white;
+    align-self: baseline;
+    position: absolute;
+    top: 47px;
+    left: 40px;
+
+}
+.menu
+{
+    display: flex;
+    height: 100%;
+    
+}
+.menu li{
+    padding: 20px;
+    font-size: 16x;
+    font-family: "AlternateGothicW01-No2 1118643", Helvetica, Arial, sans-serif;
+    overflow: visible;
+    line-height: 27px;
+    
+}
+.menu li:hover
+{
+    cursor: pointer;
+    background-color: #ce2f2f;
+}
